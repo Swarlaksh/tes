@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  #Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+
+    steps:
+    - uses: actions/checkout@v2
+   
+    - name: Boman SAST
+      run: |
+        pip install boman-cli --upgrade
+    - name:  Run a multi-line script
+      run: |
+        boman-cli -a run
+
+    
