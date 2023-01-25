@@ -1,5 +1,0 @@
-Auth :
-   project_token : "2364743d-40bf-4a7d-b152-577394020961"
-   customer_token :"df0d4185-7142-4ce1-999e-25eb8a76e80a"
-SAST :
-   language : "python"
