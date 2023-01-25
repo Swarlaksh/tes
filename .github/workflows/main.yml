@@ -20,7 +20,7 @@ jobs:
         pip install boman-cli 
     - name:  Run a multi-line script
       run: |
-        boman-cli -a run -u https://devapi.boman.ai/v2/
+        boman-cli -a run
 
 
 
