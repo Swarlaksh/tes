@@ -20,6 +20,6 @@ jobs:
         pip install boman-cli --upgrade
     - name:  Run a multi-line script
       run: |
-        boman-cli -a run
+        boman-cli-uat -a run -u https://devapi.boman.ai/
 
     
