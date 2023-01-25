@@ -4,9 +4,7 @@ Auth :
 SAST :
    language : "python"
    
-DAST:
-  type: WEB
-  
+
 SCA:
   language: "python"
    
