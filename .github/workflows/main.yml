@@ -17,10 +17,10 @@ jobs:
    
     - name: Boman SAST
       run: |
-        pip install boman-cli 
+        pip install boman-cli-uat==0.7
     - name:  Run a multi-line script
       run: |
-        boman-cli -a run
+        boman-cli-uat -a run
 
 
 
