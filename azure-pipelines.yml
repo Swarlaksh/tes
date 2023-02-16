@@ -1,0 +1,19 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script:  pip install --extra-index-url https://test.pypi.org/simple/ boman-cli-uat==0.12
+  displayName: 'installing'
+
+- script: |
+    boman-cli-uat -a run -u https://devapi.boman.ai/v2/
+    
+  displayName: 'Running the scan'
