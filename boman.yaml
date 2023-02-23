@@ -4,5 +4,5 @@ Auth:
 SAST:
   language: semgrep
 SCA:
-  language: semgrep
+  language: python-snyk-sast
 Secret_Scan: true
