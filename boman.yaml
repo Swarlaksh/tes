@@ -2,5 +2,5 @@ Auth:
   project_token: "a704d4ce-9985-41f3-920e-d6e08692978d"
   customer_token: "df0d4185-7142-4ce1-999e-25eb8a76e80a"
 SAST:
-  language: semgrep
+  language: python-snyk-sast
 Secret_Scan: true
