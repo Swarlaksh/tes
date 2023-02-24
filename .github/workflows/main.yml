@@ -17,7 +17,7 @@ jobs:
    
     - name: Boman SAST
       run: |
-        sudo pip install --extra-index-url https://test.pypi.org/simple/ boman-cli-uat==0.12
+         pip install --extra-index-url https://test.pypi.org/simple/ boman-cli-uat==0.12
     - name:  Run a multi-line script
       run: |
-        sudo boman-cli-uat -a run -u https://devapi.boman.ai/v2/
+         boman-cli-uat -a run -u https://devapi.boman.ai/v2/
