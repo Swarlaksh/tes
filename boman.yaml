@@ -1,5 +1,5 @@
 Auth:
-  project_token: d7f85322-ef3b-4417-ac4f-47a6811dc07f
+  project_token: aa668aad-0fef-4dd3-a7bf-b160ef3a3f05
   customer_token: df0d4185-7142-4ce1-999e-25eb8a76e80a
 SAST:
   language: python-snyk-sast
